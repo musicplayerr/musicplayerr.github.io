@@ -66,7 +66,7 @@ const audios = [
         audioSrc: `audio/ddl.mp3`
 	}, {
         index: 10,
-        name: `Cash Cash - Hero Ft Christina Perry`,
+        name: `Cash Cash - Hero Ft Christina Perri`,
         coverImg: `img/19.jpg`,
         audioSrc: `audio/cash.mp3`
 	}, {
@@ -303,7 +303,123 @@ const audios = [
         index: 57,
         name: `Lathi - Weird Genius`,
         coverImg: `img/66.jpg`,
-        audioSrc: `audio/lth.mp3`
+        audioSrc: `audio/lth.mp3` //here
+	}
+	, {
+        index: 58,
+        name: `There's Nothing Holdin' Me Back - Shawn Mendes`,
+        coverImg: `img/67.jpg`,
+        audioSrc: `audio/tnh.mp3`
+	}, {
+        index: 59,
+        name: `Closer - The Chainsmokers ft. Halsey`,
+        coverImg: `img/68.jpg`,
+        audioSrc: `audio/clsr.mp3`
+	}, {
+        index: 60,
+        name: `Girls Like You - Maroon 5`,
+        coverImg: `img/69.jpg`,
+        audioSrc: `audio/gly.mp3`
+	}, {
+        index: 61,
+        name: `Stay - The Kid Laroi Ft Justin Bieber`,
+        coverImg: `img/70.jpg`,
+        audioSrc: `audio/sty.mp3`
+	}, {
+        index: 62,
+        name: `Traitor - Olivia Rodrigo`,
+        coverImg: `img/71.jpg`,
+        audioSrc: `audio/trtr.mp3`
+	}, {
+        index: 63,
+        name: `Easy On Me - Adele`,
+        coverImg: `img/72.jpg`,
+        audioSrc: `audio/eom.mp3`
+	}, {
+        index: 64,
+        name: `Snowman - Sia`,
+        coverImg: `img/73.jpg`,
+        audioSrc: `audio/snw.mp3`
+	}, {
+        index: 65,
+        name: `Lovely - Billie Eilish`,
+        coverImg: `img/74.jpg`,
+        audioSrc: `audio/lv.mp3`
+	}, {
+        index:66,
+        name: `Dusk Till Down - Zayn Ft Sia`,
+        coverImg: `img/75.jpg`,
+        audioSrc: `audio/dtd.mp3`
+	}, {
+        index: 67,
+        name: `Stereo Hearts - Gym Class Heroes`,
+        coverImg: `img/76.jpg`,
+        audioSrc: `audio/lsh.mp3`
+	}, {
+        index: 68,
+        name: `Inferno - Sub Urban Ft Bella Poarch`,
+        coverImg: `img/77.jpg`,
+        audioSrc: `audio/inf.mp3`
+	}, {
+        index: 69,
+        name: `A Thousand Years - Christina Perri`,
+        coverImg: `img/78.jpg`,
+        audioSrc: `audio/aty.mp3`
+	}, {
+        index: 70,
+        name: `You Are The Reason - Calum Scott Ft Leona Lewis`,
+        coverImg: `img/79.jpg`,
+        audioSrc: `audio/yat.mp3`
+	}, {
+        index: 71,
+        name: `Lantas - Juicy Luicy `,
+        coverImg: `img/80.jpg`,
+        audioSrc: `audio/lnts.mp3`
+	}, {
+        index: 72,
+        name: `Angostura - Keshi`,
+        coverImg: `img/81.jpg`,
+        audioSrc: `audio/ang.mp3`
+	}, {
+        index: 73,
+        name: `Magnolia - Keshi`,
+        coverImg: `img/82.jpg`,
+        audioSrc: `audio/mag.mp3`
+	}, {
+        index: 74,
+        name: `2 Soon - Keshi`,
+        coverImg: `img/83.jpg`,
+        audioSrc: `audio/2s.mp3`
+	}, {
+        index: 75,
+        name: `Beside You - Keshi`,
+        coverImg: `img/84.jpg`,
+        audioSrc: `audio/bsy.mp3`
+	}, {
+        index: 76,
+        name: `Right There - Keshi`,
+        coverImg: `img/85.jpg`,
+        audioSrc: `audio/rth.mp3`
+	}, {
+        index: 77,
+        name: `Stab - Big Naughty`,
+        coverImg: `img/86.jpg`,
+        audioSrc: `audio/bn.mp3`
+	}, {
+        index: 78,
+        name: `Joker - Big Naughty`,
+        coverImg: `img/87.jpg`,
+        audioSrc: `audio/jk.mp3`
+	}, {
+        index: 79,
+        name: `Mommae - Jay Park`,
+        coverImg: `img/88.jpg`,
+        audioSrc: `audio/mmo.mp3`
+	}, {
+        index: 80,
+        name: `Me Like Yuh - Jay Park`,
+        coverImg: `img/89.jpg`,
+        audioSrc: `audio/mly.mp3`
 	}
     // You can add as many audios as you want as long as you have these info's
     // example.   Just like that you can add as many as you want.
