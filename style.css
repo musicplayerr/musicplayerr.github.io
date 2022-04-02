@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: #0e0e0e;
+    overflow: hidden;
+}
+:root {
+    --red-clr: #ff0000;
+    --orange-clr: #FF8000;
+    --black-clr: #1a0000;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+    border: 2px solid var(--red-clr);
+    box-shadow: 0 0 .5em var(--red-clr);
+}
+.audio-player {
+    width: 350px;
+    height: 70vh;
+    background-color: var(--black-clr);
+    display: grid;
+    grid-template-rows: 5fr 1fr 1fr 1.2fr;
+    border-radius: 1em;
+    box-shadow: inset 0 0 .5em var(--red-clr);
+    /* this boxshadow will give it a glowing neon effect */
+    /* i'll use it quite often */
+}
+.img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.img::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    width: 20%;
+    aspect-ratio: 1/1;
+    background-color: var(--black-clr);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: scale(.7);
+    box-shadow: 0 0 1em var(--red-clr);
+    animation: rotate 10000ms linear infinite;
+    animation-play-state: paused;
+}
+@keyframes rotate {
+    from {  transform: rotate(0) scale(.7);  }
+    to {  transform: rotate(360deg) scale(.7);  }
+    /* we'll rotate only when the audio is playing */
+    /* so as default it'll be paused */
+}
+.audio-name {
+    text-align: center;
+    width: 80%;
+    place-self: center;
+}
+.audio-name h1 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+.audio-player nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav button {
+    font-size: 1.5rem;
+    padding: .2em .7em;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: .3em;
+    box-shadow: 0 0 .2em #fff,
+                inset 0 0 .2em #fff;
+    cursor: pointer;
+    outline: none;
+}
+/* the reason it works is cause the script tag is already there
+but we'll include it in the next part */
+nav button i {
+    text-shadow: 0 0 .2em #fff;
+}
+nav button:active {
+    transform: scale(.95);
+}
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.progress-bar {
+    width: 80%;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer; /* cause we'll add the feature to click where ever we want in the progress bar */
+}
+.progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%; /* we'll change dinamically with JS. We'll leave it at 100% as default */
+    background-color: var(--orange-clr);
+    border-radius: 10px;
+    transition: width 150ms ease-in-out;
+}
+.progress::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 15px;
+    aspect-ratio: 1/1;
+    background-color: var(--orange-clr);
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    opacity: 0;
+    transition: 200ms ease-in-out opacity;
+}
+.progress-bar:hover .progress::before {
+    opacity: 1;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: .5em;
+}
+
+
+.music-list {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* bruhhhhh. I knew something was wrong */
+    width: 100%;
+    height: 80%;
+    background-color: var(--black-clr);
+    box-shadow: inset 0 0 .5em var(--red-clr),
+                0 0 .5em var(--red-clr),
+                0 0 0 2px var(--red-clr);
+    border-radius: 1em;
+    z-index: 2;
+    overflow-y: scroll;
+    transition: 200ms ease-in-out transform;
+    transform: translateY(101%);
+}
+.music-list nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 5;
+    background-color: var(--black-clr);
+    box-shadow: inset 0 0 .5em var(--red-clr),
+                0 0 .5em var(--red-clr),
+                0 0 0 2px var(--red-clr);
+}
+.disabled {
+    border: none;
+    box-shadow: none;
+    cursor: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 150px;
+    user-select: none;
+}
+.disabled:active {
+    transform: scale(1);
+}
+.disabled i {
+    color: #b0b0b0;
+    text-shadow: none;
+}
+
+.item-container {
+    height: 90px;
+    border-block: 1px solid var(--red-clr);
+    box-shadow: 0 0 .5em var(--red-clr),
+                inset 0 0 .5em var(--red-clr);
+    padding: 0 .5em;
+}
+.item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.item:active {
+    transform: scale(.97);
+}
+.coverImg {
+    height: 70px;
+    aspect-ratio: 1/1;
+}
+.coverImg img {
+    box-shadow: 0 0 .5em var(--red-clr);
+    user-select: none;
+}
+.info {
+    margin-left: 1rem;
+}
+.info h3 {
+    user-select: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* now we'll remove the scroll bar */
+.music-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* SHOW THE MUSIC LIST */
+.showMusicList {
+    transform: translateY(0);
+    /* since as default it'll be hidden */
+}
+/* since as default it is transform translated to 101% down */
+
+
+
+/* THATS ALL FOR THIS PART */

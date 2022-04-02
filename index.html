@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+        <script src="app.js" defer></script>
+        <!-- dont forget to link CSS Stylesheet and JS script -->
+        <!-- Font Awesome CDN (pinned in the comment section) -->
+        <title>Audio Player</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="audio-player">
+                <div class="img">
+                    <img src="img/one.jpg" alt="">
+                </div>
+                <div class="audio-name">
+                    <h1>4am - KaizanBlue</h1>
+                </div>
+                <nav>
+                    <button class="backwardBtn">
+                        <i class="fas fa-backward"></i>
+                        <!-- its there but the color for all the elements is white -->
+                    </button>
+                    <button class="playBtn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button class="forwardBtn">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                    <button class="musicListBtn">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </nav>
+                <div class="bar">
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <audio src="audio/4am - KaizanBlu.mp3"></audio>
+                    <div class="time">
+                        <p class="audioCurrentTime">00:00</p>
+                        <p class="fullLength">00:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music-list">
+                <nav>
+                    <button class="disabled">
+                        <i class="fas fa-list"></i>
+                        Music List
+                    </button>
+                    <button class="xBtn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </nav>
+                <div class="list">
+                    <div class="item-container">
+                        <div class="item">
+                            <div class="coverImg">
+                                <img src="img/one.jpg" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>4am - KaizanBlue</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- like this  -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
