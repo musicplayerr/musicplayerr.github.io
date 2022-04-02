@@ -15,75 +15,140 @@ const fullLength = document.querySelector('.fullLength');
 
 const audios = [
     {
-        index: 0, // Index must start from 0 (we need it for the music list - NEXT VIDEO)
-        name: `4am - KaizanBlu`, // Audios Name
-        coverImg: `img/one.jpg`, // Img's path must be correct or the img won't be shown
-        audioSrc: `audio/4am - KaizanBlu.mp3` // Audio's path must be correct or the audio won't play
-    }, {
-        index: 1,
-        name: `Chill Jazzy Lofi Hip-Hop Beat Lo-Fi Music`,
-        coverImg: `img/two.jpg`,
-        audioSrc: `audio/Chill Jazzy Lofi Hip-Hop Beat Lo-Fi Music.mp3`
-    }, {
-        index: 2,
-        name: `Chill Lofi Hip Hop Beat Music`,
-        coverImg: `img/three.jpg`,
-        audioSrc: `audio/Chill Lofi Hip Hop Beat Music.mp3`
-    }, {
-        index: 3,
-        name: `InRp - Ocean Blue`,
-        coverImg: `img/four.jpg`,
-        audioSrc: `audio/InRp - Ocean Blue.mp3`
-    }, {
-        index: 4,
+        index: 0,
         name: `Imagine Dragon - Enemy`,
         coverImg: `img/five.jpg`,
         audioSrc: `audio/Enemy.mp3`
     }, {
-        index: 5,
+        index: 1,
         name: `Imagine Dragon - Bad Liar`,
         coverImg: `img/six.jpg`,
-        audioSrc: `audio/Bad-Liar.mp3` //here
+        audioSrc: `audio/bl.mp3`
 	}, {
-        index: 6,
-        name: `Imagine Dragon - Bad Liar`,
-        coverImg: `img/six.jpg`,
-        audioSrc: `audio/Bad-Liar.mp3`
+        index: 2,
+        name: `Boney M - Rasputin`,
+        coverImg: `img/14.jpg`,
+        audioSrc: `audio/rasputin.mp3`
 	}, {
-        index: 7,
+        index: 3,
         name: `24kgoldn Ft Ian Dior - Mood`,
         coverImg: `img/seven.jpg`,
         audioSrc: `audio/mood.mp3`
 	}, {
-        index: 8,
+        index: 4,
         name: `Juice Wrld - Lucid Dreams`,
         coverImg: `img/eight.jpg`,
         audioSrc: `audio/lcd-drm.mp3`
 	}, {
-        index: 9,
+        index: 5,
         name: `Heather x Eyes Blue (Lofi Remix)`,
         coverImg: `img/nine.jpg`,
         audioSrc: `audio/hthr.mp3`
 	}, {
+        index: 6,
+        name: `Akon - Lonely`,
+        coverImg: `img/15.jpg`,
+        audioSrc: `audio/lonely.mp3`
+	}, {
+        index: 7,
+        name: `Toxic - Boy With Uke`,
+        coverImg: `img/16.jpg`,
+        audioSrc: `audio/toxic.mp3`
+	}, {
+        index: 8,
+        name: `Love Me Like You Do - Ellie Goulding`,
+        coverImg: `img/17.jpg`,
+        audioSrc: `audio/lmlyd.mp3`
+	}, {
+        index: 9,
+        name: `Dandellions - Ruth B`,
+        coverImg: `img/18.jpg`,
+        audioSrc: `audio/ddl.mp3`
+	}, {
         index: 10,
-        name: `Imagine Dragon - Bad Liar`,
-        coverImg: `img/ten.jpg`,
-        audioSrc: `audio/Bad-Liar.mp3`
+        name: `Cash Cash - Hero Ft Christina Perry`,
+        coverImg: `img/19.jpg`,
+        audioSrc: `audio/cash.mp3`
 	}, {
         index: 11,
-        name: `Imagine Dragon - Bad Liar`,
-        coverImg: `img/eleven.jpg`,
-        audioSrc: `audio/Bad-Liar.mp3`
+        name: `Perfect - Ed Sheeran`,
+        coverImg: `img/20.jpg`,
+        audioSrc: `audio/perfect.mp3`
 	}, {
         index: 12,
-        name: `Imagine Dragon - Bad Liar`,
-        coverImg: `img/twelve.jpg`,
-        audioSrc: `audio/Bad-Liar.mp3`
+        name: `Shape Of You - Ed Sheeran`,
+        coverImg: `img/21.jpg`,
+        audioSrc: `audio/soy.mp3`
 	}, {
         index: 13,
-        name: `Imagine Dragon - Bad Liar`,
-        coverImg: `img/13.jpg`,
-        audioSrc: `audio/Bad-Liar.mp3`
+        name: `Heat Waves - Glass Animals`,
+        coverImg: `img/22.jpg`,
+        audioSrc: `audio/hw.mp3`
+	}, {
+        index: 14,
+        name: `See You Again - Wizz Khalifa`,
+        coverImg: `img/23.jpg`,
+        audioSrc: `audio/sya.mp3`
+	}, {
+        index: 15,
+        name: `Unstoppable - Sia`,
+        coverImg: `img/24.jpg`,
+        audioSrc: `audio/upbl.mp3`
+	}, {
+        index: 16,
+        name: `Someone You Loved - Lewis Capaldi`,
+        coverImg: `img/25.jpg`,
+        audioSrc: `audio/syl.mp3`
+	}, {
+        index: 17,
+        name: `Death Bed - Powfu`,
+        coverImg: `img/26.jpg`,
+        audioSrc: `audio/db.mp3`
+	}, {
+        index: 18,
+        name: `Don't Let Me Down - The Chainsmokers`,
+        coverImg: `img/27.jpg`,
+        audioSrc: `audio/dlmd.mp3`
+	}, {
+        index: 19,
+        name: `Rockabye - Clean Bandit`,
+        coverImg: `img/28.jpg`,
+        audioSrc: `audio/rby.mp3`
+	}, {
+        index: 20,
+        name: `Let Her Go - Passenger`,
+        coverImg: `img/29.jpg`,
+        audioSrc: `audio/lhg.mp3`
+	}, {
+        index: 21,
+        name: `We Don't Talk Anymore - Charlie Puth`,
+        coverImg: `img/30.jpg`,
+        audioSrc: `audio/wdta.mp3`
+	}, {
+        index: 22,
+        name: `Senorita - Shawn Mendes Ft Camila Cabello`,
+        coverImg: `img/31.jpg`,
+        audioSrc: `audio/senorita.mp3`
+	}, {
+        index: 23,
+        name: ` Love Yourself - Justin Bieber`,
+        coverImg: `img/32.jpg`,
+        audioSrc: `audio/ly.mp3`
+	}, {
+        index: 24,
+        name: `Be Alright - Dean Lewis`,
+        coverImg: `img/33.jpg`,
+        audioSrc: `audio/ba.mp3`
+	}, {
+        index: 25,
+        name: `Beggin' - Maneskin`,
+        coverImg: `img/34.jpg`,
+        audioSrc: `audio/bg.mp3`
+	}, {
+        index: 26,
+        name: `Night Changes - One Direction`,
+        coverImg: `img/35.jpg`,
+        audioSrc: `audio/nc.mp3`
 	}
     // You can add as many audios as you want as long as you have these info's
     // example.   Just like that you can add as many as you want.
