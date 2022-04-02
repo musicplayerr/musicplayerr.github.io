@@ -420,7 +420,123 @@ const audios = [
         name: `Me Like Yuh - Jay Park`,
         coverImg: `img/89.jpg`,
         audioSrc: `audio/mly.mp3`
+	}, {
+        index: 81,
+        name: `B.Y.S - Keshi`,
+        coverImg: `img/108.jpg`,
+        audioSrc: `audio/1/bys.mp3`
+	}, {
+        index: 82,
+        name: `Bandaids - Keshi`,
+        coverImg: `img/109.jpg`,
+        audioSrc: `audio/1/bds.mp3`
+	}, {
+        index: 83,
+        name: `Xoxosos`,
+        coverImg: `img/92.jpg`,
+        audioSrc: `audio/1/xxs.mp3`
+	}, {
+        index: 84,
+        name: `Apollo 11 - Jamie`,
+        coverImg: `img/93.jpg`,
+        audioSrc: `audio/1/apl.mp3`
+	}, {
+        index: 85,
+        name: `No numbers - Jamie`,
+        coverImg: `img/94.jpg`,
+        audioSrc: `audio/1/nnm.mp3`
+	}, {
+        index: 86,
+        name: `No one else - GOT7`,
+        coverImg: `img/95.jpg`,
+        audioSrc: `audio/1/noe.mp3`
+	}, {
+        index: 87,
+        name: `Page - GOT7`,
+        coverImg: `img/96.jpg`,
+        audioSrc: `audio/1/pg.mp3`
+	}, {
+        index: 88,
+        name: `1+1 - GOT7`,
+        coverImg: `img/97.jpg`,
+        audioSrc: `audio/1/1+1.mp3`
+	}, {
+        index: 89,
+        name: `Zombie - DAY6`,
+        coverImg: `img/98.jpg`,
+        audioSrc: `audio/1/zm.mp3`
+	}, {
+        index: 90,
+        name: `You make me - DAY6`,
+        coverImg: `img/99.jpg`,
+        audioSrc: `audio/1/ymm.mp3`
+	}, {
+        index: 91,
+        name: `Healer - DAY6`,
+        coverImg: `img/100.jpg`,
+        audioSrc: `audio/1/hlr.mp3`
+	}, {
+        index: 92,
+        name: `Someday Spring Will Come - Wonpil`,
+        coverImg: `img/1/101.jpg`,
+        audioSrc: `audio/1/ssm.mp3`
+	}, {
+        index: 93,
+        name: `A Writer In A Love Story - Wonpil`,
+        coverImg: `img/1/102.jpg`,
+        audioSrc: `audio/1/wrt.mp3`
+	}, {
+        index: 94,
+        name: `All About You - Yugyeom`,
+        coverImg: `img/1/103.jpg`,
+        audioSrc: `audio/1/ygy.mp3`
+	}, {
+        index: 95,
+        name: `Like Me - PH-1`,
+        coverImg: `img/1/104.jpg`,
+        audioSrc: `audio/1/lm.mp3`
+	}, {
+        index: 96,
+        name: `Escobar - PH-1`,
+        coverImg: `img/1/105.jpg`,
+        audioSrc: `audio/1/esc.mp3`
+	}, {
+        index: 97,
+        name: `Just like this - LOCO`,
+        coverImg: `img/1/106.jpg`,
+        audioSrc: `audio/1/jlt.mp3`
+	}, {
+        index: 98,
+        name: `Strawberry & Cigarettes - Troye Sivan`,
+        coverImg: `img/1/107.jpg`,
+        audioSrc: `audio/1/sc.mp3`
+	}, {
+        index: 99,
+        name: `Kimi No Toriko - Rizky Ayuba`,
+        coverImg: `img/90.jpg`,
+        audioSrc: `audio/knt.mp3`
+	}, {
+        index: 100,
+        name: `Wrap Me In Plastic - Chromance`,
+        coverImg: `img/91.jpg`,
+        audioSrc: `audio/wmip.mp3`
+	}, {
+        index: 101,
+        name: `Young Girls - Bruno Mars `,
+        coverImg: `img/1/200.jpg`,
+        audioSrc: `audio/1/yg.mp3`
+	}, {
+        index: 102,
+        name: `Miss Wanna Die - JulyPhonic, Master Andross`,
+        coverImg: `img/1/201.jpg`,
+        audioSrc: `audio/1/mwd.mp3`
+	}, {
+        index: 103,
+        name: `Joker - Special Part`,
+        coverImg: `img/1/202.jpg`,
+        audioSrc: `audio/1/is.mp3`
 	}
+	
     // You can add as many audios as you want as long as you have these info's
     // example.   Just like that you can add as many as you want.
     // and when there's now enough room we can scroll down but the scroll bar wont show. I think thats a cool trick we learned during this tutorial
