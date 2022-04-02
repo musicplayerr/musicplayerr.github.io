@@ -235,72 +235,72 @@ const audios = [
         coverImg: `img/52.jpg`,
         audioSrc: `audio/pf.mp3`
 	}, {
-        index: 43,
+        index: 44,
         name: `To The Bone - Pamungkas`,
         coverImg: `img/53.jpg`,
         audioSrc: `audio/ttb.mp3`
 	}, {
-        index: 44,
+        index: 45,
         name: `Somebody That I Used To Know - Gotye`,
         coverImg: `img/54.jpg`,
         audioSrc: `audio/sm.mp3`
 	}, {
-        index: 45,
+        index: 46,
         name: `Dancing In My Room - 347Aidan`,
         coverImg: `img/55.jpg`,
         audioSrc: `audio/dimr.mp3`
 	}, {
-        index: 46,
+        index: 47,
         name: `Industry Baby - Lil Nas X`,
         coverImg: `img/56.jpg`,
         audioSrc: `audio/ib.mp3`
 	}, {
-        index: 47,
+        index: 48,
         name: `Losing Interests - Shiloh Dynasty`,
         coverImg: `img/57.jpg`,
         audioSrc: `audio/li.mp3`
 	}, {
-        index: 48,
+        index: 49,
         name: `Happy - SkinnyFabs 'Gustixa Remix'`,
         coverImg: `img/58.jpg`,
         audioSrc: `audio/hpy.mp3`
 	}, {
-        index: 49,
+        index: 50,
         name: `Just The Two Of Us - Grover Washington Jr`,
         coverImg: `img/59.jpg`,
         audioSrc: `audio/jtt.mp3`
 	}, {
-        index: 50,
+        index: 51,
         name: `Baby - Justin Bieber`,
         coverImg: `img/60.jpg`,
         audioSrc: `audio/bby.mp3`
 	}, {
-        index: 51,
+        index: 52,
         name: `Sunday Best - Surfaces`,
         coverImg: `img/61.jpg`,
         audioSrc: `audio/sb.mp3`
 	}, {
-        index: 52,
+        index: 53,
         name: `GooseBumps  - Travis Scott`,
         coverImg: `img/62.jpg`,
         audioSrc: `audio/gb.mp3`
 	}, {
-        index: 53,
+        index: 54,
         name: `Lemon Tree - Gustixa`,
         coverImg: `img/63.jpg`,
         audioSrc: `audio/ltr.mp3`
 	}, {
-        index: 54,
+        index: 55,
         name: `Throw Sum Mo - Rae Sremmurd`,
         coverImg: `img/64.jpg`,
         audioSrc: `audio/tsmm.mp3`
 	}, {
-        index: 55,
+        index: 56,
         name: `Black Beatles - Rae Sremmurd`,
         coverImg: `img/65.jpg`,
         audioSrc: `audio/bb.mp3`
 	}, {
-        index: 56,
+        index: 57,
         name: `Lathi - Weird Genius`,
         coverImg: `img/66.jpg`,
         audioSrc: `audio/lth.mp3`
