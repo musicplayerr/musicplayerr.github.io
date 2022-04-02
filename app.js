@@ -149,6 +149,161 @@ const audios = [
         name: `Night Changes - One Direction`,
         coverImg: `img/35.jpg`,
         audioSrc: `audio/nc.mp3`
+	}, {
+        index: 27,
+        name: `Gangsta's Paradise - Coolio`,
+        coverImg: `img/36.jpg`,
+        audioSrc: `audio/gp.mp3`
+	}, {
+        index: 28,
+        name: `The Nights - Avicii`,
+        coverImg: `img/37.jpg`,
+        audioSrc: `audio/tn.mp3`
+	}, {
+        index: 29,
+        name: `More Than You Know - Axwell Ft Ingrosso`,
+        coverImg: `img/38.jpg`,
+        audioSrc: `audio/mtyk.mp3` //hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+	}, {
+        index: 30,
+        name: `The Spectre - Alan Walker`,
+        coverImg: `img/39.jpg`,
+        audioSrc: `audio/tsa.mp3`
+	}, {
+        index: 31,
+        name: `Faded - Alan Walker`,
+        coverImg: `img/40.jpg`,
+        audioSrc: `audio/fd.mp3`
+	}, {
+        index: 32,
+        name: `Alone - Alan Walker`,
+        coverImg: `img/41.jpg`,
+        audioSrc: `audio/al.mp3`
+	}, {
+        index: 33,
+        name: `On My Way - Alan Walker`,
+        coverImg: `img/42.jpg`,
+        audioSrc: `audio/omw.mp3`
+	}, {
+        index: 34,
+        name: `Lily - Alan Walker`,
+        coverImg: `img/43.jpg`,
+        audioSrc: `audio/lly.mp3`
+	}, {
+        index: 35,
+        name: `Dance Monkey - Tones And I`,
+        coverImg: `img/44.jpg`,
+        audioSrc: `audio/dm.mp3`
+	}, {
+        index: 36,
+        name: `Believer - Imagine Dragons`,
+        coverImg: `img/45.jpg`,
+        audioSrc: `audio/blv.mp3`
+	}, {
+        index: 37,
+        name: `The Lazy Song - Bruno Mars`,
+        coverImg: `img/46.jpg`,
+        audioSrc: `audio/tls.mp3`
+	}, {
+        index: 38,
+        name: `Memories - Maroon 5`,
+        coverImg: `img/47.jpg`,
+        audioSrc: `audio/mmr.mp3`
+	}, {
+        index: 39,
+        name: `Abcdefu - Gayle`,
+        coverImg: `img/48.jpg`,
+        audioSrc: `audio/abc.mp3`
+	}, {
+        index: 40,
+        name: `It's You - Ali Gatie`,
+        coverImg: `img/49.jpg`,
+        audioSrc: `audio/iy.mp3`
+	}, {
+        index: 41,
+        name: `My Ordinary Life 'Slowed' - The Living Tombstone`,
+        coverImg: `img/50.jpg`,
+        audioSrc: `audio/myl.mp3`
+	}, {
+        index: 42,
+        name: `Ransom - Lil Tecca`,
+        coverImg: `img/51.jpg`,
+        audioSrc: `audio/rn.mp3`
+	}, {
+        index: 43,
+        name: `Party Favor - Billie Eilish 'Gustixa Remix'`,
+        coverImg: `img/52.jpg`,
+        audioSrc: `audio/pf.mp3`
+	}, {
+        index: 43,
+        name: `To The Bone - Pamungkas`,
+        coverImg: `img/53.jpg`,
+        audioSrc: `audio/ttb.mp3`
+	}, {
+        index: 44,
+        name: `Somebody That I Used To Know - Gotye`,
+        coverImg: `img/54.jpg`,
+        audioSrc: `audio/sm.mp3`
+	}, {
+        index: 45,
+        name: `Dancing In My Room - 347Aidan`,
+        coverImg: `img/55.jpg`,
+        audioSrc: `audio/dimr.mp3`
+	}, {
+        index: 46,
+        name: `Industry Baby - Lil Nas X`,
+        coverImg: `img/56.jpg`,
+        audioSrc: `audio/ib.mp3`
+	}, {
+        index: 47,
+        name: `Losing Interests - Shiloh Dynasty`,
+        coverImg: `img/57.jpg`,
+        audioSrc: `audio/li.mp3`
+	}, {
+        index: 48,
+        name: `Happy - SkinnyFabs 'Gustixa Remix'`,
+        coverImg: `img/58.jpg`,
+        audioSrc: `audio/hpy.mp3`
+	}, {
+        index: 49,
+        name: `Just The Two Of Us - Grover Washington Jr`,
+        coverImg: `img/59.jpg`,
+        audioSrc: `audio/jtt.mp3`
+	}, {
+        index: 50,
+        name: `Baby - Justin Bieber`,
+        coverImg: `img/60.jpg`,
+        audioSrc: `audio/bby.mp3`
+	}, {
+        index: 51,
+        name: `Sunday Best - Surfaces`,
+        coverImg: `img/61.jpg`,
+        audioSrc: `audio/sb.mp3`
+	}, {
+        index: 52,
+        name: `GooseBumps  - Travis Scott`,
+        coverImg: `img/62.jpg`,
+        audioSrc: `audio/gb.mp3`
+	}, {
+        index: 53,
+        name: `Lemon Tree - Gustixa`,
+        coverImg: `img/63.jpg`,
+        audioSrc: `audio/ltr.mp3`
+	}, {
+        index: 54,
+        name: `Throw Sum Mo - Rae Sremmurd`,
+        coverImg: `img/64.jpg`,
+        audioSrc: `audio/tsmm.mp3`
+	}, {
+        index: 55,
+        name: `Black Beatles - Rae Sremmurd`,
+        coverImg: `img/65.jpg`,
+        audioSrc: `audio/bb.mp3`
+	}, {
+        index: 56,
+        name: `Lathi - Weird Genius`,
+        coverImg: `img/66.jpg`,
+        audioSrc: `audio/lth.mp3`
 	}
     // You can add as many audios as you want as long as you have these info's
     // example.   Just like that you can add as many as you want.
