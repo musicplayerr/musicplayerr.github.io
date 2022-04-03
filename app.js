@@ -534,7 +534,57 @@ const audios = [
         index: 103,
         name: `Joker - Special Part`,
         coverImg: `img/1/202.jpg`,
-        audioSrc: `audio/1/is.mp3`
+        audioSrc: `audio/1/is.mp3` //hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+	}, {
+        index: 104,
+        name: `Kawaii - Tatarka`,
+        coverImg: `img1/1.jpg`,
+        audioSrc: `audio1/kw.mp3`
+	}, {
+        index: 105,
+        name: `Love Grows - Edison Lighthouse`,
+        coverImg: `img1/2.jpg`,
+        audioSrc: `audio1/lg.mp3`
+	}, {
+        index: 106,
+        name: `Comethru - Jeremy Zucker`,
+        coverImg: `img1/3.jpg`,
+        audioSrc: `audio1/cmth.mp3`
+	}, {
+        index: 107,
+        name: `Pano - Zack Tabudlo`,
+        coverImg: `img1/4.jpg`,
+        audioSrc: `audio1/pn.mp3`
+	}, {
+        index: 108,
+        name: `Tomboy - G-IDLE`,
+        coverImg: `img1/5.jpg`,
+        audioSrc: `audio1/tm.mp3`
+	}, {
+        index: 109,
+        name: `BORN TO LOVE YOU - Kang Seung Yoon`,
+        coverImg: `img1/6.jpg`,
+        audioSrc: `audio1/btly.mp3`
+	}, {
+        index: 110,
+        name: `Ghost - Justin Bieber`,
+        coverImg: `img1/7.jpg`,
+        audioSrc: `audio1/gh.mp3`
+	}, {
+        index: 111,
+        name: `DADDY! DADDY! DO! - Masayuki Suzuki ft. Airi Suzuki`,
+        coverImg: `img1/8.jpg`,
+        audioSrc: `audio1/ddd.mp3`
+	}, {
+        index: 112,
+        name: `Dj Menimisu - Kehabisan Bahan`,
+        coverImg: `img1/9.jpg`,
+        audioSrc: `audio1/dmm.mp3`
+	}, {
+        index: 113,
+        name: `Dj Ricardo Milos - Kehabisan Bahan`,
+        coverImg: `img1/10.jpg`,
+        audioSrc: `audio1/rm.mp3`
 	}
 	
     
